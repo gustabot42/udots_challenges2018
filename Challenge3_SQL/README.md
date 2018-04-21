@@ -1,4 +1,4 @@
-# Ubidots Challenge - 2018
+# Udots Challenge - 2018
 
 ## Challenge 3 - SQL
 
@@ -8,6 +8,12 @@ using database file 'db.sqlite3'
 
 ### Explanation of solution
 
-The SQL is in the file 'womenpets.sql',
+The SQL use multiple inner joins of 'Clientes' against 'Datos' table usign alias,
+each alias have where constrains for filter the query
+
+
+### Architecture and deployment
+
+The SQL is in the 'womenpets.sql',
 the list of names that the query would generate without constrains
-was written in comments of the file
+was written in the comments of the file
