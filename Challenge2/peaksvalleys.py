@@ -11,7 +11,13 @@ import numpy as np
 
 def count_peaksvalleys(array):
     """
-    Return the peak and valley elements of a sequence of integers.
+    Return count of peaks and valleys elements from a sequence of integers
+
+    * An array element is peak if it is greater than its neighbors.
+    * An array element is valley if it is smaller than its neighbors.
+    * For corner elements, we need to consider only one neighbor.
+    * Array elements must be between 0 and 500 (inclusive)
+    * Sequence could be list, tuple or numpy array elements
     """
     # Convert to numpy array
     if not isinstance(array, (list, tuple, np.ndarray)):
@@ -26,7 +32,7 @@ def count_peaksvalleys(array):
     if not all(isinstance(e, np.integer) for e in array):
         raise TypeError("One or more elements of the array are not integers")
 
-    # Vicius cases
+    # Special cases
     if len(array) <= 1:
         return (0, 0)
 
@@ -36,7 +42,7 @@ def count_peaksvalleys(array):
     greater_right = array > np.roll(array, -1)
     greater_left  = array > np.roll(array,  1)
 
-    # Get extremes values and calculate middle
+    # Get extremes values and calculate middle ones
     valleys_mask = np.concatenate(
         ([smaller_right[0]], smaller_right[1:-1] * smaller_left[1:-1], [smaller_left[-1]]))
     peaks_mask = np.concatenate(
