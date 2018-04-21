@@ -4,6 +4,9 @@
 Operations parser for Cube Summation
 """
 
+# Local libraries
+from cube import Cube
+
 
 def parser(_input):
     """
@@ -66,3 +69,15 @@ def parser(_input):
         testcases.append((edgesize, operations))
 
     return testcases
+
+def execute(text):
+    testcases = parser(text)
+    answers = []
+    for edgesize, operations in testcases:
+        cube = Cube(edgesize)
+        for function, args in operations:
+            answer = getattr(cube, function)(*args)
+            if answer is not None:
+                answers.append(answer)
+
+    return answers

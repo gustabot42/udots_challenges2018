@@ -4,8 +4,9 @@
 Utils for test cubesummation
 """
 
-# Standart and thirdparty libraries
+# Standard libraries
 from random import choice
+# Thirdparty libraries
 import numpy as np
 
 def random_update_string(edgesize):

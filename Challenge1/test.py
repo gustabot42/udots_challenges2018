@@ -4,14 +4,16 @@
 Test for Cube Summation
 """
 
-# Standart and thirdparty libraries
+# Standard libraries
 import io
-import numpy as np
 import unittest
+# Thirdparty libraries
+import numpy as np
 
 # Local libraries
 from test_utils import random_input_string
-from cubesummation import Cube, execute
+from cube import Cube
+from _parser import execute
 
 class TestCubeSummation(unittest.TestCase):
     """

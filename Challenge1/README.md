@@ -1,4 +1,4 @@
-# Ubidots Challenge - 2018
+# Udots Challenge - 2018
 
 ## Challenge 1 - Cube Summation
 
@@ -19,9 +19,9 @@ and a 'parser' for reading the input in the format proposed in HackerRank.
 
 The solution use python3 and the thirdparty library numpy, install dependencies:
 
-´´´ bash
+``` bash
 $ pip install numpy
-´´´
+```
 
 
 #### Execution
@@ -29,7 +29,7 @@ $ pip install numpy
 the library 'cubesummation' expect a file like input with the format proposed in HackerRank,
 for execution use like this:
 
-´´´ bash
+``` bash
 $ python3 cubesummation.py < test_data/input.txt
 4
 4
@@ -37,18 +37,18 @@ $ python3 cubesummation.py < test_data/input.txt
 0
 1
 1
-´´´
+```
 
 
 #### Test
 
 To test the library Unittest was used, execute it like this:
 
-´´´ bash
+``` bash
 $ python3 test.py
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.129s
 
 OK
-´´´
+```
