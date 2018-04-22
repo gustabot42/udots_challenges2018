@@ -4,8 +4,9 @@
 Count peaks and valleys
 """
 
-# Standart and thirdparty libraries
+# Standard Libraries
 import sys
+# Thirdparty Libraries
 import numpy as np
 
 

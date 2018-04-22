@@ -7,10 +7,10 @@ An array element is peak if it is NOT smaller than its neighbors.
 An array element is valley if it is NOT greater than its neighbors.
 For corner elements, we need to consider only one neighbor.
 
-**Note**: This definition of peak and valley consider EQUAL comparition peak and valley,
+**Note**: This definition of peak and valley consider EQUAL comparison peak and valley,
 this generates vicious cases like:
 
-```
+``` Python
 assert count_peak_valeys([1,1,1,1]) == (4, 4)
 ```
 
