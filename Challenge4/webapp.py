@@ -12,7 +12,7 @@ from tornado import gen
 from tornado.ioloop import IOLoop
 from tornado.tcpclient import TCPClient
 from tornado.options import define, options
-import tornado.web
+from tornado import web
 import tornado.websocket
 
 
@@ -23,10 +23,10 @@ define("listen_port", default=27878, help="Listen on the given port", type=int)
 logger = logging.getLogger(__name__)
 
 
-class Application(tornado.web.Application):
+class Application(web.Application):
     def __init__(self):
         handlers = [
-            (r"/", MainHandler),
+            (r'/', web.RedirectHandler, {"url": "/static/index.html"}),
             (r"/socket", SocketHandler),
         ]
         settings = dict(
@@ -36,11 +36,6 @@ class Application(tornado.web.Application):
             xsrf_cookies=True,
         )
         super(Application, self).__init__(handlers, **settings)
-
-
-class MainHandler(tornado.web.RequestHandler):
-    def get(self):
-        self.render("index.html", messages=ChatSocketHandler.cache)
 
 
 class SocketHandler(tornado.websocket.WebSocketHandler):

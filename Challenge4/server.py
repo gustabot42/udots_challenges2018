@@ -71,29 +71,32 @@ class WriteServer(TCPServer):
     @gen.coroutine
     def handle_stream(self, stream, address):
         self._streams.add((stream, address))
-        logger.info(f"Broadcasting to client on port: address[1]")
+        port = address[1]
+        logger.info(f"Broadcasting to client on port: {port}")
 
     @gen.coroutine
     def broadcast(self):
         while True:
-            # get actual sums and reset it
-            sums = json_encode(clients_sum)
-            for k in clients_sum:
-                clients_sum[k] = 0
+            if clients_sum:
+                # get actual sums and reset it
+                sums = json_encode(clients_sum)
+                for k in clients_sum:
+                    clients_sum[k] = 0
 
-            # broadcast message to all streams
-            message = f"{sums}\r\n".encode('UTF-8')
-            for stream, address in self._streams:
-                try:
-                    yield stream.write(message)
-                except StreamClosedError:
-                    # remove stream from broadcasting set
-                    self._streams.remove((stream, address))
-                    logger.warning(f"Lost listen client at port: {address[1]}")
-                    break
-                except Exception as e:
-                    print(e)
-            logger.info(f"Broadcasted sums: {sums}")
+                # broadcast message to all streams
+                message = f"{sums}\r\n".encode('UTF-8')
+                for stream, address in self._streams:
+                    port = address[1]
+                    try:
+                        yield stream.write(message)
+                    except StreamClosedError:
+                        # remove stream from broadcasting set
+                        self._streams.remove((stream, address))
+                        logger.warning(f"Lost listen client at port: {port}")
+                        break
+                    except Exception as e:
+                        print(e)
+                logger.info(f"Broadcasted sums: {sums}")
 
             # Sleep for 1 second, waiting for sums to acumulate
             yield gen.sleep(1)
