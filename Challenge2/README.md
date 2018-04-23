@@ -38,7 +38,7 @@ $ pip install numpy
 
 #### Execution
 
-the library 'peaksvalleys' expect a CVS list input,
+the library `peaksvalleys` expect a CVS list input,
 for execution use like this:
 
 ``` bash

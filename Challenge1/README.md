@@ -9,8 +9,8 @@ You must solve this HackerRank challenge:
 ### Explanation of solution
 
 The solution was implemented with python3,
-it define a 'Class' Cube for data and method encapsulation,
-and a 'parser' for reading the input in the format proposed in HackerRank.
+it define a `Class` Cube for data and method encapsulation,
+and a `parser` for reading the input in the format proposed in HackerRank.
 
 
 ### Architecture and deployment
@@ -26,7 +26,7 @@ $ pip install numpy
 
 #### Execution
 
-the library 'cubesummation' expect a file like input with the format proposed in HackerRank,
+the library `cubesummation` expect a file like input with the format proposed in HackerRank,
 for execution use like this:
 
 ``` bash

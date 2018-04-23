@@ -16,6 +16,10 @@ class Cube():
         self.edgesize = edgesize
         self.cube = np.zeros((edgesize, edgesize, edgesize), dtype=np.int64)
 
+    def __getitem__(self, key):
+        x, y, z = key
+        return self.cube[x-1, y-1, z-1]
+
     def update(self, x, y, z, w):
         """
         Update cube in position x, y, z with value w
@@ -23,9 +27,7 @@ class Cube():
         if not -10e9 < w < 10e9:
             raise ValueError(f"W value out of range: '{w}'")
 
-        # Change index start
-        x, y, z = x-1, y-1, z-1
-        self.cube[x, y, z] = w
+        self.cube[x-1, y-1, z-1] = w
 
     def query(self, x1, y1, z1, x2, y2, z2):
         """

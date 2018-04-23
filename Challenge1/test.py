@@ -29,7 +29,21 @@ class TestCubeSummation(unittest.TestCase):
         w = int(np.random.uniform(-10e9, 10e9))
         self.cube.update(x, y ,z, w)
 
-        self.assertEqual(self.cube.cube[x-1, y-1, z-1], w)
+        self.assertEqual(self.cube[x, y, z], w)
+
+    def test_update_value_invalid(self):
+        x, y ,z = np.random.randint(self.edgsize+1, size=3)
+        w = int(np.random.uniform(10e9, 20e9))
+
+        with self.assertRaises(ValueError):
+            self.cube.update(x, y ,z, w)
+
+    def test_update_index_invalid(self):
+        x, y ,z = np.random.randint(self.edgsize+1, self.edgsize+10, size=3)
+        w = int(np.random.uniform(10e9, 20e9))
+
+        with self.assertRaises(ValueError):
+            self.cube.update(x, y ,z, w)
 
     def test_query(self):
         self.cube.update(1, 2, 2, 7)
