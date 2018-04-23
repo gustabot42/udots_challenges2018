@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="infraestructure.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="227.5716"
+     inkscape:cy="770.67468"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-others="true"
+     inkscape:object-nodes="false"
+     inkscape:snap-nodes="false"
+     inkscape:snap-center="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99583333"
+       id="rect815"
+       width="36.512501"
+       height="36.512501"
+       x="33.063053"
+       y="57.449421"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129" />
+    <g
+       id="g841"
+       transform="translate(-35.691686,-63.13133)"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129">
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99583333"
+         id="rect827"
+         width="7.4083333"
+         height="10.054167"
+         x="93.169807"
+         y="122.87805" />
+      <g
+         transform="translate(0,-0.24303806)"
+         id="g835">
+        <rect
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99583333"
+           id="rect829"
+           width="4.7624998"
+           height="2.1166666"
+           x="98.221207"
+           y="125.2029" />
+        <rect
+           y="128.97678"
+           x="98.221207"
+           height="2.1166666"
+           width="4.7624998"
+           id="rect831"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99583333" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="38.021252"
+       y="66.680817"
+       id="text845"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129"><tspan
+         sodipodi:role="line"
+         id="tspan843"
+         x="38.021252"
+         y="66.680817"
+         style="font-size:4.58611107px;stroke-width:0.26458332">Server</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="80.354584"
+       y="145.12129"
+       id="text881"><tspan
+         sodipodi:role="line"
+         id="tspan879"
+         x="80.354584"
+         y="154.77679"
+         style="font-size:3.52777767px;stroke-width:0.26458332" /></text>
+    <g
+       transform="matrix(1.384862,0,0,-1.3751775,-52.470531,171.87228)"
+       id="g887"
+       style="stroke-width:0.72463179"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129">
+      <circle
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.38345101;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99583333"
+         id="circle883"
+         cx="98.307938"
+         cy="64.522736"
+         r="1.3229166" />
+      <path
+         id="path885"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.38345101;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99583333"
+         sodipodi:type="arc"
+         sodipodi:cx="98.307938"
+         sodipodi:cy="64.522736"
+         sodipodi:rx="2.1166666"
+         sodipodi:ry="2.1166666"
+         sodipodi:start="1.5707963"
+         sodipodi:end="4.712389"
+         d="m 98.307938,66.639402 a 2.1166666,2.1166666 0 0 1 -1.833087,-1.058333 2.1166666,2.1166666 0 0 1 0,-2.116667 2.1166666,2.1166666 0 0 1 1.833087,-1.058333"
+         sodipodi:open="true" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="38.488972"
+       y="78.023804"
+       id="text901"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129"><tspan
+         sodipodi:role="line"
+         id="tspan899"
+         x="38.488972"
+         y="78.023804"
+         style="font-size:3.52777767px;stroke-width:0.26458332">ListenServer</tspan><tspan
+         sodipodi:role="line"
+         x="38.488972"
+         y="84.197418"
+         style="font-size:3.52777767px;stroke-width:0.26458332"
+         id="tspan903">WriteServer</tspan></text>
+    <g
+       id="g989"
+       transform="translate(-40.649535,-60.325)"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129">
+      <g
+         id="g869"
+         transform="translate(68.658789,-2.8063301)">
+        <rect
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99583333"
+           id="rect861"
+           width="7.4083333"
+           height="10.054167"
+           x="93.169807"
+           y="122.87805" />
+        <g
+           transform="translate(0,-0.24303806)"
+           id="g867">
+          <rect
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99583333"
+             id="rect863"
+             width="4.7624998"
+             height="2.1166666"
+             x="98.221207"
+             y="125.2029" />
+          <rect
+             y="128.97678"
+             x="98.221207"
+             height="2.1166666"
+             width="4.7624998"
+             id="rect865"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99583333" />
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="141.31339"
+         y="127.09538"
+         id="text873"><tspan
+           sodipodi:role="line"
+           id="tspan871"
+           x="141.31339"
+           y="127.09538"
+           style="font-size:4.58611107px;stroke-width:0.26458332">Webapp</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="141.5298"
+         y="136.60634"
+         id="text911"><tspan
+           sodipodi:role="line"
+           id="tspan907"
+           x="141.5298"
+           y="136.60634"
+           style="font-size:3.52777767px;stroke-width:0.26458332">Application</tspan><tspan
+           sodipodi:role="line"
+           x="141.5298"
+           y="142.77995"
+           style="font-size:3.52777767px;stroke-width:0.26458332"
+           id="tspan909">Socket</tspan><tspan
+           id="tspan913"
+           sodipodi:role="line"
+           x="141.5298"
+           y="148.95355"
+           style="font-size:3.52777767px;stroke-width:0.26458332">Register</tspan></text>
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99583333"
+         id="rect915"
+         width="36.512501"
+         height="36.512501"
+         x="137.22641"
+         y="117.77442" />
+    </g>
+    <g
+       id="g1099"
+       transform="translate(-41.210801,-59.950823)"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129">
+      <path
+         style="stroke-width:0.26458332"
+         id="path2-5"
+         d="m 79.967817,90.943633 v -7.000001 c 0,-0.828437 -0.671565,-1.5 -1.5,-1.5 h -13 c -0.828436,0 -1.5,0.671563 -1.5,1.5 v 7.000001 c 0,0.828437 0.671564,1.5 1.5,1.5 h 13 c 0.828435,0 1.5,-0.671563 1.5,-1.5 z m -14.5,0.499999 c -0.275689,0 -0.5,-0.224312 -0.5,-0.499999 v -7.000001 c 0,-0.275687 0.224311,-0.5 0.5,-0.5 h 13 c 0.275689,0 0.5,0.224313 0.5,0.5 v 7.000001 c 0,0.275687 -0.224311,0.499999 -0.5,0.499999 z m 11.187502,4 h -0.375005 a 0.18749999,0.18749999 0 0 1 -0.187493,-0.187499 v -0.562501 h -0.187502 a 0.18749999,0.18749999 0 0 1 -0.187502,-0.187499 v -1.3125 h 1.5 v 1.3125 a 0.18749999,0.18749999 0 0 1 -0.187503,0.187499 h -0.187493 v 0.562501 a 0.18749999,0.18749999 0 0 1 -0.187502,0.187499 z m -3,0 h -0.375005 a 0.18749999,0.18749999 0 0 1 -0.187493,-0.187499 v -0.562501 h -0.187502 a 0.18749999,0.18749999 0 0 1 -0.187502,-0.187499 v -1.3125 h 1.5 v 1.3125 a 0.18749999,0.18749999 0 0 1 -0.187503,0.187499 h -0.187493 v 0.562501 a 0.18749999,0.18749999 0 0 1 -0.187502,0.187499 z m -3,0 h -0.375005 a 0.18749999,0.18749999 0 0 1 -0.187493,-0.187499 v -0.562501 h -0.187502 a 0.18749999,0.18749999 0 0 1 -0.187502,-0.187499 v -1.3125 h 1.5 v 1.3125 a 0.18749999,0.18749999 0 0 1 -0.187503,0.187499 h -0.187493 v 0.562501 a 0.18749999,0.18749999 0 0 1 -0.187502,0.187499 z m -3,0 h -0.375005 a 0.18749999,0.18749999 0 0 1 -0.187493,-0.187499 v -0.562501 h -0.187502 a 0.18749999,0.18749999 0 0 1 -0.187502,-0.187499 v -1.3125 h 1.5 v 1.3125 a 0.18749999,0.18749999 0 0 1 -0.187503,0.187499 h -0.187493 v 0.562501 a 0.18749999,0.18749999 0 0 1 -0.187502,0.187499 z m 0.562498,-15.062499 v 1.312499 h -1.5 v -1.312499 a 0.18749999,0.18749999 0 0 1 0.187502,-0.187501 h 0.187502 v -0.562499 a 0.18749999,0.18749999 0 0 1 0.187493,-0.1875 h 0.375005 a 0.18749999,0.18749999 0 0 1 0.187502,0.1875 v 0.562499 h 0.187493 a 0.18749999,0.18749999 0 0 1 0.187503,0.187501 z m 3,0 v 1.312499 h -1.5 v -1.312499 a 0.18749999,0.18749999 0 0 1 0.187502,-0.187501 h 0.187502 v -0.562499 a 0.18749999,0.18749999 0 0 1 0.187493,-0.1875 h 0.375005 a 0.18749999,0.18749999 0 0 1 0.187502,0.1875 v 0.562499 h 0.187493 a 0.18749999,0.18749999 0 0 1 0.187503,0.187501 z m 3,0 v 1.312499 h -1.5 v -1.312499 a 0.18749999,0.18749999 0 0 1 0.187502,-0.187501 h 0.187502 v -0.562499 a 0.18749999,0.18749999 0 0 1 0.187493,-0.1875 h 0.375005 a 0.18749999,0.18749999 0 0 1 0.187502,0.1875 v 0.562499 h 0.187493 a 0.18749999,0.18749999 0 0 1 0.187503,0.187501 z m 3,0 v 1.312499 h -1.5 v -1.312499 a 0.18749999,0.18749999 0 0 1 0.187502,-0.187501 h 0.187502 v -0.562499 a 0.18749999,0.18749999 0 0 1 0.187493,-0.1875 h 0.375005 a 0.18749999,0.18749999 0 0 1 0.187502,0.1875 v 0.562499 h 0.187493 a 0.18749999,0.18749999 0 0 1 0.187503,0.187501 z"
+         inkscape:connector-curvature="0" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="66.838074"
+         y="88.760521"
+         id="text925"><tspan
+           sodipodi:role="line"
+           x="66.838074"
+           y="88.760521"
+           style="font-size:3.52777767px;stroke-width:0.26458332"
+           id="tspan923">Client</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="49.761433"
+       y="55.988178"
+       id="text962"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129"><tspan
+         sodipodi:role="line"
+         x="49.761433"
+         y="55.988178"
+         style="font-size:2.82222223px;stroke-width:0.26458332"
+         id="tspan960">TCP:27877</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 48.683332,48.55625 v 8.59896"
+       id="path958"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129" />
+    <text
+       id="text971"
+       y="89.915634"
+       x="71.502655"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129"><tspan
+         id="tspan969"
+         style="font-size:2.82222223px;stroke-width:0.26458332"
+         y="89.915634"
+         x="71.502655"
+         sodipodi:role="line">TCP:27878</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 80.545677,83.08437 H 69.585417"
+       id="path973"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path975"
+       d="M 96.448217,83.08437 H 85.487957"
+       style="fill:none;stroke:#000000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129" />
+    <g
+       transform="matrix(0,-1.384862,-1.3751775,0,207.8544,179.55456)"
+       id="g887-2"
+       style="stroke-width:0.72463179"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129">
+      <circle
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.38345101;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99583333"
+         id="circle883-7"
+         cx="98.307938"
+         cy="64.522736"
+         r="1.3229166" />
+      <path
+         id="path885-2"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.38345101;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99583333"
+         sodipodi:type="arc"
+         sodipodi:cx="98.307938"
+         sodipodi:cy="64.522736"
+         sodipodi:rx="2.1166666"
+         sodipodi:ry="2.1166666"
+         sodipodi:start="1.5707963"
+         sodipodi:end="4.712389"
+         d="m 98.307938,66.639402 a 2.1166666,2.1166666 0 0 1 -1.833087,-1.058333 2.1166666,2.1166666 0 0 1 0,-2.116667 2.1166666,2.1166666 0 0 1 1.833087,-1.058333"
+         sodipodi:open="true" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.52916676;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 119.06649,46.53836 V 57.49862"
+       id="path973-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path975-1"
+       d="M 119.06649,34.604569 V 41.59608"
+       style="fill:none;stroke:#000000;stroke-width:0.52916676;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="120.9876"
+       y="55.584858"
+       id="text1020"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129"><tspan
+         sodipodi:role="line"
+         x="120.9876"
+         y="55.584858"
+         style="font-size:2.82222223px;stroke-width:0.26458332"
+         id="tspan1018">HTTP:8899</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 126.68257,19.144473 h -15 c -0.82813,0 -1.5,0.671875 -1.5,1.5 v 9 c 0,0.828126 0.67187,1.5 1.5,1.5 h 6 l -0.74999,3.000001 h -2.25001 c -0.275,0 -0.5,0.225 -0.5,0.499999 0,0.275002 0.225,0.500001 0.5,0.500001 h 9 c 0.275,0 0.5,-0.224999 0.5,-0.500001 0,-0.274999 -0.225,-0.499999 -0.5,-0.499999 h -2.25 l -0.75,-3.000001 h 6 c 0.82813,0 1.5,-0.671874 1.5,-1.5 v -9 c 0,-0.828125 -0.67187,-1.5 -1.5,-1.5 z m -8.71874,15.000001 0.49999,-2 h 1.43751 l 0.49999,2 z m 9.21875,-4.500001 c 0,0.275 -0.22501,0.500001 -0.50001,0.500001 h -15 c -0.275,0 -0.5,-0.225001 -0.5,-0.500001 v -9 c 0,-0.275 0.225,-0.5 0.5,-0.5 h 15 c 0.275,0 0.50001,0.225 0.50001,0.5 z"
+       id="path2"
+       style="stroke-width:0.26458332"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129" />
+    <g
+       id="g1094"
+       transform="translate(-41.210801,-59.950823)"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 99.425039,90.943633 v -7.000001 c 0,-0.828437 -0.671565,-1.5 -1.5,-1.5 h -13 c -0.828436,0 -1.5,0.671563 -1.5,1.5 v 7.000001 c 0,0.828437 0.671564,1.5 1.5,1.5 h 13 c 0.828435,0 1.5,-0.671563 1.5,-1.5 z m -14.5,0.499999 c -0.275689,0 -0.5,-0.224312 -0.5,-0.499999 v -7.000001 c 0,-0.275687 0.224311,-0.5 0.5,-0.5 h 13 c 0.275689,0 0.5,0.224313 0.5,0.5 v 7.000001 c 0,0.275687 -0.224311,0.499999 -0.5,0.499999 z m 11.187502,4 h -0.375005 a 0.18749999,0.18749999 0 0 1 -0.187493,-0.187499 v -0.562501 h -0.187502 a 0.18749999,0.18749999 0 0 1 -0.187502,-0.187499 v -1.3125 h 1.5 v 1.3125 a 0.18749999,0.18749999 0 0 1 -0.187503,0.187499 h -0.187493 v 0.562501 a 0.18749999,0.18749999 0 0 1 -0.187502,0.187499 z m -3,0 h -0.375005 a 0.18749999,0.18749999 0 0 1 -0.187493,-0.187499 v -0.562501 h -0.187502 a 0.18749999,0.18749999 0 0 1 -0.187502,-0.187499 v -1.3125 h 1.5 v 1.3125 a 0.18749999,0.18749999 0 0 1 -0.187503,0.187499 h -0.187493 v 0.562501 a 0.18749999,0.18749999 0 0 1 -0.187502,0.187499 z m -3,0 h -0.375005 a 0.18749999,0.18749999 0 0 1 -0.187493,-0.187499 v -0.562501 h -0.187502 a 0.18749999,0.18749999 0 0 1 -0.187502,-0.187499 v -1.3125 h 1.5 v 1.3125 a 0.18749999,0.18749999 0 0 1 -0.187503,0.187499 h -0.187493 v 0.562501 a 0.18749999,0.18749999 0 0 1 -0.187502,0.187499 z m -3,0 h -0.375005 a 0.18749999,0.18749999 0 0 1 -0.187493,-0.187499 v -0.562501 h -0.187502 a 0.18749999,0.18749999 0 0 1 -0.187502,-0.187499 v -1.3125 h 1.5 v 1.3125 a 0.18749999,0.18749999 0 0 1 -0.187503,0.187499 h -0.187493 v 0.562501 a 0.18749999,0.18749999 0 0 1 -0.187502,0.187499 z m 0.562498,-15.062499 v 1.312499 h -1.5 v -1.312499 a 0.18749999,0.18749999 0 0 1 0.187502,-0.187501 h 0.187502 v -0.562499 a 0.18749999,0.18749999 0 0 1 0.187493,-0.1875 h 0.375005 a 0.18749999,0.18749999 0 0 1 0.187502,0.1875 v 0.562499 h 0.187493 a 0.18749999,0.18749999 0 0 1 0.187503,0.187501 z m 3,0 v 1.312499 h -1.5 v -1.312499 a 0.18749999,0.18749999 0 0 1 0.187502,-0.187501 h 0.187502 v -0.562499 a 0.18749999,0.18749999 0 0 1 0.187493,-0.1875 h 0.375005 a 0.18749999,0.18749999 0 0 1 0.187502,0.1875 v 0.562499 h 0.187493 a 0.18749999,0.18749999 0 0 1 0.187503,0.187501 z m 3,0 v 1.312499 h -1.5 v -1.312499 a 0.18749999,0.18749999 0 0 1 0.187502,-0.187501 h 0.187502 v -0.562499 a 0.18749999,0.18749999 0 0 1 0.187493,-0.1875 h 0.375005 a 0.18749999,0.18749999 0 0 1 0.187502,0.1875 v 0.562499 h 0.187493 a 0.18749999,0.18749999 0 0 1 0.187503,0.187501 z m 3,0 v 1.312499 h -1.5 v -1.312499 a 0.18749999,0.18749999 0 0 1 0.187502,-0.187501 h 0.187502 v -0.562499 a 0.18749999,0.18749999 0 0 1 0.187493,-0.1875 h 0.375005 a 0.18749999,0.18749999 0 0 1 0.187502,0.1875 v 0.562499 h 0.187493 a 0.18749999,0.18749999 0 0 1 0.187503,0.187501 z"
+         id="path1064"
+         style="stroke-width:0.26458332" />
+      <text
+         id="text1068"
+         y="88.760521"
+         x="86.295288"
+         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           id="tspan1066"
+           style="font-size:3.52777767px;stroke-width:0.26458332"
+           y="88.760521"
+           x="86.295288"
+           sodipodi:role="line">Client</tspan></text>
+    </g>
+    <g
+       id="g1089"
+       transform="translate(-41.739968,-59.950823)"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129">
+      <path
+         style="stroke-width:0.26458332"
+         id="path1070"
+         d="m 119.25644,90.943633 v -7.000001 c 0,-0.828437 -0.67157,-1.5 -1.5,-1.5 h -13 c -0.82844,0 -1.5,0.671563 -1.5,1.5 v 7.000001 c 0,0.828437 0.67156,1.5 1.5,1.5 h 13 c 0.82843,0 1.5,-0.671563 1.5,-1.5 z m -14.5,0.499999 c -0.27569,0 -0.5,-0.224312 -0.5,-0.499999 v -7.000001 c 0,-0.275687 0.22431,-0.5 0.5,-0.5 h 13 c 0.27568,0 0.5,0.224313 0.5,0.5 v 7.000001 c 0,0.275687 -0.22432,0.499999 -0.5,0.499999 z m 11.1875,4 h -0.37501 a 0.18749999,0.18749999 0 0 1 -0.18749,-0.187499 v -0.562501 h -0.1875 a 0.18749999,0.18749999 0 0 1 -0.1875,-0.187499 v -1.3125 h 1.5 v 1.3125 a 0.18749999,0.18749999 0 0 1 -0.18751,0.187499 h -0.18749 v 0.562501 a 0.18749999,0.18749999 0 0 1 -0.1875,0.187499 z m -3,0 h -0.37501 a 0.18749999,0.18749999 0 0 1 -0.18749,-0.187499 v -0.562501 h -0.1875 a 0.18749999,0.18749999 0 0 1 -0.1875,-0.187499 v -1.3125 h 1.5 v 1.3125 a 0.18749999,0.18749999 0 0 1 -0.18751,0.187499 h -0.18749 v 0.562501 a 0.18749999,0.18749999 0 0 1 -0.1875,0.187499 z m -3,0 h -0.37501 a 0.18749999,0.18749999 0 0 1 -0.18749,-0.187499 v -0.562501 h -0.1875 a 0.18749999,0.18749999 0 0 1 -0.1875,-0.187499 v -1.3125 h 1.5 v 1.3125 a 0.18749999,0.18749999 0 0 1 -0.18751,0.187499 h -0.18749 v 0.562501 a 0.18749999,0.18749999 0 0 1 -0.1875,0.187499 z m -3,0 h -0.375 a 0.18749999,0.18749999 0 0 1 -0.1875,-0.187499 v -0.562501 h -0.1875 a 0.18749999,0.18749999 0 0 1 -0.1875,-0.187499 v -1.3125 h 1.5 v 1.3125 a 0.18749999,0.18749999 0 0 1 -0.18751,0.187499 h -0.18749 v 0.562501 a 0.18749999,0.18749999 0 0 1 -0.1875,0.187499 z m 0.5625,-15.062499 v 1.312499 h -1.5 v -1.312499 a 0.18749999,0.18749999 0 0 1 0.1875,-0.187501 h 0.1875 v -0.562499 a 0.18749999,0.18749999 0 0 1 0.1875,-0.1875 h 0.375 a 0.18749999,0.18749999 0 0 1 0.1875,0.1875 v 0.562499 h 0.18749 a 0.18749999,0.18749999 0 0 1 0.18751,0.187501 z m 3,0 v 1.312499 h -1.5 v -1.312499 a 0.18749999,0.18749999 0 0 1 0.1875,-0.187501 h 0.1875 v -0.562499 a 0.18749999,0.18749999 0 0 1 0.18749,-0.1875 h 0.37501 a 0.18749999,0.18749999 0 0 1 0.1875,0.1875 v 0.562499 h 0.18749 a 0.18749999,0.18749999 0 0 1 0.18751,0.187501 z m 3,0 v 1.312499 h -1.5 v -1.312499 a 0.18749999,0.18749999 0 0 1 0.1875,-0.187501 h 0.1875 v -0.562499 a 0.18749999,0.18749999 0 0 1 0.18749,-0.1875 h 0.37501 a 0.18749999,0.18749999 0 0 1 0.1875,0.1875 v 0.562499 h 0.18749 a 0.18749999,0.18749999 0 0 1 0.18751,0.187501 z m 3,0 v 1.312499 h -1.5 v -1.312499 a 0.18749999,0.18749999 0 0 1 0.1875,-0.187501 h 0.1875 v -0.562499 a 0.18749999,0.18749999 0 0 1 0.18749,-0.1875 h 0.37501 a 0.18749999,0.18749999 0 0 1 0.1875,0.1875 v 0.562499 h 0.18749 a 0.18749999,0.18749999 0 0 1 0.18751,0.187501 z"
+         inkscape:connector-curvature="0" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="106.12669"
+         y="88.760521"
+         id="text1074"><tspan
+           sodipodi:role="line"
+           x="106.12669"
+           y="88.760521"
+           style="font-size:3.52777767px;stroke-width:0.26458332"
+           id="tspan1072">Client</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 30.631246,31.999996 48.778847,45.65747"
+       id="path1101"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 50.088468,31.999996 48.778847,45.65747"
+       id="path1103"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 69.639227,31.90645 48.778847,45.65747"
+       id="path1105"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129" />
+    <g
+       style="stroke-width:0.72463179"
+       id="g857"
+       transform="matrix(0,-1.384862,1.3751775,0,-39.987887,181.6543)"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129">
+      <circle
+         r="1.3229166"
+         cy="64.522736"
+         cx="98.307938"
+         id="circle853"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.38345101;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99583333" />
+      <path
+         sodipodi:open="true"
+         d="m 98.307938,66.639402 a 2.1166666,2.1166666 0 0 1 -1.833087,-1.058333 2.1166666,2.1166666 0 0 1 0,-2.116667 2.1166666,2.1166666 0 0 1 1.833087,-1.058333"
+         sodipodi:end="4.712389"
+         sodipodi:start="1.5707963"
+         sodipodi:ry="2.1166666"
+         sodipodi:rx="2.1166666"
+         sodipodi:cy="64.522736"
+         sodipodi:cx="98.307938"
+         sodipodi:type="arc"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.38345101;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99583333"
+         id="path855" />
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 123.98703,27.980012 c 0.12041,0 0.21893,0.09852 0.21893,0.218933 v 0.145957 c 0,0.120416 -0.0985,0.218941 -0.21893,0.218941 h -8.90338 c -0.12041,0 -0.21894,-0.09852 -0.21894,-0.218941 v -6.568061 c 0,-0.120408 0.0985,-0.218933 0.21894,-0.218933 h 0.14596 c 0.12041,0 0.21894,0.09852 0.21894,0.218933 v 6.203171 z m -0.3649,-5.382158 v 1.71499 c 0,0.534572 -0.64951,0.802764 -1.02717,0.425098 l -0.65133,-0.651332 -1.74783,1.747836 c -0.042,0.04194 -0.11126,0.04194 -0.15508,0 l -1.08374,-1.083728 -2.05252,2.182054 c -0.042,0.04376 -0.11125,0.04564 -0.15507,0.0052 l -0.26638,-0.249944 c -0.0439,-0.04193 -0.0456,-0.111299 -0.006,-0.155084 l 2.39005,-2.537823 c 0.042,-0.04564 0.11312,-0.04564 0.15691,-0.0016 l 1.09468,1.094677 1.41212,-1.412128 -0.65133,-0.651331 c -0.37949,-0.379488 -0.10947,-1.027177 0.42511,-1.027177 h 1.71499 c 0.33206,-0.0016 0.60207,0.2682 0.60207,0.60025 z m -0.52545,0 c 0,-0.04193 -0.0328,-0.07481 -0.0748,-0.07481 h -1.715 c -0.0675,0 -0.10032,0.0821 -0.0529,0.127714 l 1.715,1.71499 c 0.0474,0.04745 0.1277,0.01458 0.1277,-0.05289 z"
+       id="path2-0"
+       style="stroke-width:0.26458329"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="108.3765"
+       y="16.932514"
+       id="text1074-1"
+       inkscape:export-filename="infraestructure.png"
+       inkscape:export-xdpi="129"
+       inkscape:export-ydpi="129"><tspan
+         sodipodi:role="line"
+         x="108.3765"
+         y="16.932514"
+         style="font-size:3.52777767px;stroke-width:0.26458332"
+         id="tspan1072-9">Web Browser</tspan></text>
+  </g>
+</svg>
