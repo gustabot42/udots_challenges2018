@@ -26,7 +26,7 @@ The solution consist in three libraries and static files.
 The library `server.py` contains the TCP Sum Server, `webapp.py` contains a Webapp Server,
 `client.py` contains the TCP data clients and `static/` directory contains the statics files.
 
-![Infraestructure](imgs\infraestructure.png)
+![Infraestructure](imgs/infraestructure.png)
 
 
 #### Install
