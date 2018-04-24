@@ -7,7 +7,6 @@ Webapp and web socket for registed sum server
 # Standard Libraries
 from uuid import uuid4 as uuid
 import logging
-import os.path
 # Thirdparty Libraries
 from tornado import gen
 from tornado import web
@@ -30,7 +29,12 @@ class CheckHandler(web.RequestHandler):
 
     @gen.coroutine
     def get(self, millis):
-        millis = int(millis)
+        try:
+            millis = int(millis)
+        except TypeError:
+            self.set_status(400)
+            yield self.write("FAIL")
+            return
 
         if not 1 <= millis <= 20000:
             self.set_status(400)
