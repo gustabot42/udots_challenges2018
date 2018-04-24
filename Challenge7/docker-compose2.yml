@@ -1,0 +1,21 @@
+version: '2'
+services:
+  web:
+    image: gustavodiazjaimes/udot_c7:redis
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    ports:
+     - "80:80"
+    networks:
+         - frontend
+  redis:
+    image: redis:3.2
+    ports:
+        - "6379"
+    networks:
+        - frontend
+networks:
+    frontend:
