@@ -1,3 +1,7 @@
+$(function() {
+  WebSocketData();
+});
+
 // Bar chart
 let linechart = new Chart(document.getElementById("line-chart"), {
     type: 'line',
@@ -15,6 +19,7 @@ let linechart = new Chart(document.getElementById("line-chart"), {
     }
 });
 
+let labels_todelete = [];
 
 function initiate_labels(){
   let dt = new Date();
@@ -28,7 +33,6 @@ function initiate_labels(){
   return labels
 }
 
-let labels_todelete = [];
 function deleteDataset(chart, label) {
   chart.data.datasets.forEach(function (dataset, index, datasets) {
     if (dataset.label == label) {
@@ -77,15 +81,12 @@ function updateChart(chart, data) {
   chart.update();
 }
 
-function WebSocketTest() {
+function WebSocketData() {
   if ("WebSocket" in window) {
      console.log("WebSocket is supported by your Browser!");
-
-     // Let us open a web socket
      let ws = new WebSocket("ws://localhost:8899/socket");
 
      ws.onopen = function(){
-        // Web Socket is connected, send data using send()
         console.log("Connection is open");
      };
 
@@ -95,7 +96,6 @@ function WebSocketTest() {
      };
 
      ws.onclose = function() {
-        // websocket is closed.
         console.log("Connection is closed");
      };
 
@@ -104,15 +104,9 @@ function WebSocketTest() {
      };
   }
   else {
-     // The browser doesn't support WebSocket
      alert("WebSocket NOT supported by your Browser!");
   }
 }
-
-$(function() {
-  WebSocketTest();
-});
-
 
 
 // function updateData(chart, label, data) {
