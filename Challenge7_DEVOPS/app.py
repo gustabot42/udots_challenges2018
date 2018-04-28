@@ -14,7 +14,7 @@ from tornado import web
 from tornado.ioloop import IOLoop
 from tornado.httpserver import HTTPServer
 from tornado.options import define, options
-import redis
+import aioredis
 
 
 try:
@@ -32,10 +32,6 @@ except KeyError:
 define("port",  default=88, help="HTTP port for the app")
 logger = logging.getLogger(__name__)
 
-# Storage initialization
-r = redis.StrictRedis(host=REDIS_HOST, port=REDIS_PORT, db=0)
-r.set('pending', 0)
-
 
 class MainHandler(web.RequestHandler):
     """
@@ -50,54 +46,60 @@ class CheckHandler(web.RequestHandler):
     """
     Handler for route /check
     """
+    def initialize(self, redis):
+        self.redis = redis
+
     @asyncio.coroutine
     def get(self, millis):
         try:
             millis = int(millis)
         except ValueError:
             self.set_status(400)
-            yield from self.write("FAIL")
+            self.write("FAIL")
             return
 
         if not 1 <= millis <= 20000:
             self.set_status(400)
-            yield from self.write("FAIL")
+            self.write("FAIL")
             return
 
         yield from self.wait_millis(millis)
 
     @asyncio.coroutine
     def wait_millis(self, millis):
-        try:
-            pending = int(r.get('pending'))
-        except ValueError:
-            pending = 0
-        r.set('pending', pending+1)
+        pending = yield from self.redis.get('pending')
+        pending = int(pending) if pending is not None else 0
+        yield from self.redis.set('pending', pending+1)
 
         yield from gen.sleep(millis/1000)
         self.set_status(201)
-        yield from self.write("CHECKED")
+        self.write("CHECKED")
 
-        try:
-            pending = int(r.get('pending'))
-        except ValueError:
-            pending = 0
-        r.set('pending', pending-1)
+        pending = yield from self.redis.get('pending')
+        pending = int(pending) if pending is not None else 0
+        yield from self.redis.set('pending', pending-1)
 
 class StatsHandler(web.RequestHandler):
     """
     Handler for route /Stats
     """
+    def initialize(self, redis):
+        self.redis = redis
+
     @asyncio.coroutine
     def get(self):
-        try:
-            pending = int(r.get('pending'))
-        except ValueError:
-            pending = 0
+        pending = yield from self.redis.get('pending')
+        pending = int(pending) if pending is not None else 0
 
         self.set_status(200)
-        yield from self.write("{}".format(pending))
+        self.write("{}".format(pending))
 
+
+def get_redis_connection(loop):
+    # Storage initialization
+    return loop.run_until_complete(
+        aioredis.create_redis((REDIS_HOST, REDIS_PORT), loop=loop)
+    )
 
 def main():
     # get configuration
@@ -106,10 +108,11 @@ def main():
 
     ioloop = asyncio.get_event_loop()
 
+    redis = get_redis_connection(ioloop)
     app = web.Application([
         (r"/", MainHandler),
-        (r"/check/(.*)", CheckHandler),
-        (r"/stats", StatsHandler),
+        (r"/check/(.*)", CheckHandler, dict(redis=redis)),
+        (r"/stats", StatsHandler, dict(redis=redis)),
     ])
 
     server = HTTPServer(app)
