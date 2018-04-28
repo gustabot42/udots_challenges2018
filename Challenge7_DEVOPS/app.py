@@ -16,12 +16,23 @@ from tornado.options import define, options
 import redis
 
 
+try:
+    REDIS_HOST = os.environ['REDIS_HOST']
+except KeyError:
+    REDIS_HOST = "localhost"
+
+try:
+    REDIS_PORT = os.environ['REDIS_PORT']
+except KeyError:
+    REDIS_PORT = 6379
+
+
 # Configuration
-define("port",  default=80, help="HTTP port for the app")
+define("port",  default=88, help="HTTP port for the app")
 logger = logging.getLogger(__name__)
 
 # Storage initialization
-r = redis.StrictRedis(host=os.environ['REDIS_HOST'], port=os.environ['REDIS_PORT'], db=0)
+r = redis.StrictRedis(host=HOST, port=REDIS_PORT, db=0)
 r.set('pending', 0)
 
 
