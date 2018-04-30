@@ -21,12 +21,12 @@ try:
     REDIS_HOST = os.environ['REDIS_HOST']
 except KeyError:
     REDIS_HOST = "localhost"
-
 try:
     REDIS_PORT = os.environ['REDIS_PORT']
 except KeyError:
     REDIS_PORT = 6379
 
+PENDING_KEY = 42    # if you are going to use a random number, why not the answer to all.
 
 # Configuration
 define("port",  default=88, help="HTTP port for the app")
@@ -63,21 +63,17 @@ class CheckHandler(web.RequestHandler):
             self.write("FAIL")
             return
 
-        yield from self.wait_millis(millis)
+        yield from self._wait_millis(millis)
 
     @asyncio.coroutine
-    def wait_millis(self, millis):
-        pending = yield from self.redis.get('pending')
-        pending = int(pending) if pending is not None else 0
-        yield from self.redis.set('pending', pending+1)
+    def _wait_millis(self, millis):
+        yield from self.redis.incr(PENDING_KEY)
 
         yield from gen.sleep(millis/1000)
         self.set_status(201)
         self.write("CHECKED")
 
-        pending = yield from self.redis.get('pending')
-        pending = int(pending) if pending is not None else 0
-        yield from self.redis.set('pending', pending-1)
+        yield from self.redis.decr(PENDING_KEY)
 
 class StatsHandler(web.RequestHandler):
     """
@@ -88,11 +84,11 @@ class StatsHandler(web.RequestHandler):
 
     @asyncio.coroutine
     def get(self):
-        pending = yield from self.redis.get('pending')
-        pending = int(pending) if pending is not None else 0
+        pending = yield from self.redis.get(PENDING_KEY)
+        pending = pending.decode()
 
         self.set_status(200)
-        self.write("{}".format(pending))
+        self.write(f"{pending}")
 
 
 def get_redis_connection(loop):
@@ -117,8 +113,8 @@ def main():
 
     server = HTTPServer(app)
     server.bind(port)
-    server.start(0)    # Number of process to be forked, 0 equals number of cpu
-    logger.info("Start at port: {}".format(port))
+    server.start()
+    logger.info(f"Start at port: {port}")
 
     ioloop.run_forever()
 
