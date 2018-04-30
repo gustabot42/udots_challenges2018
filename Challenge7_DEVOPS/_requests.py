@@ -7,12 +7,14 @@ Test answers from DEVOPS server
 
 # thirdparty library
 import numpy as np
-import matplotlib.pyplot as plt
 import grequests
 
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 
 url = "http://yal.uis.edu.co/check/5000"
-increment = 200
+increment = 1000
 
 num_requests   = []
 mean_responses = []
