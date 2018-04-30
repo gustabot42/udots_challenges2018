@@ -1,2 +1,4 @@
 tornado==4.5.3
-redis==2.10.6
+aioredis
+numpy
+matplotlib

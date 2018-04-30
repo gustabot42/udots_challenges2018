@@ -17,22 +17,30 @@ parameter and then answer CHECKED, if millis is another value return immediately
 
 ### Explanation of solution
 
-In order to achieve the amount of concurrent connections, a non-blocking server was used.
-But one process will not use both cores, so to server was fork.
-To process running need and intermediator to communicate information,
-it must be fast or it will be a bottleneck (indeed, the concurrence sought was not achieved,
-possibly because redis was not optimized)
+In order to achieve the amount of concurrent connections, the operative system was customized
+and a non-blocking server was used. Thse server was fork in order to user both cores.
+Multiple process running need an intermediator for communication,
+the intermediator must be fast and support concurrency too or it will be a bottleneck.
 
 
 ### Architecture and deployment
 
-The solution was implemented with python3 using the thirdparty library tornado.
+The solution was implemented with python3.6 using the thirdparty library tornado and aioredis.
 It take advantage of the multiproces capability of tornado to spam multiple process
 and use a redis database for communication between the process.
 
+Customize the OS variables like this:
+
+``` bash
+$ cat /etc/security/limits.d/20-nofile.conf
+
+*	soft	nofile	999999
+*	hard	nofile	999999
+```
+
 The app run with docker compose, like this:
 
-```
+``` bash
 $ docker-compose --project-name udot7_redis -f docker-compose.yml up
 ```
 
